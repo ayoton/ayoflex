@@ -1,10 +1,10 @@
 {
   "name": "ayoflex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mobile first css layout utility library",
   "main": "index.js",
   "scripts": {
-    "css": "sass --no-source-map --style=compressed ./src/ayoflex.scss ./dist/ayoflex.min.css && sass --no-source-map --style=compressed ./src/ayoflex-no-responsive.scss ./dist/ayoflex-no-responsive.min.css"
+    "css": "sass --no-source-map --style=compressed ./src/ayoflex.scss ./dist/ayoflex.min.css && sass --no-source-map --style=compressed ./src/ayoflex-no-responsive.scss ./dist/ayoflex-no-responsive.min.css && sass --no-source-map ./src/ayoflex.scss ./dist/ayoflex.css && sass --no-source-map ./src/ayoflex-no-responsive.scss ./dist/ayoflex-no-responsive.css"
   },
   "repository": {
     "type": "git",
