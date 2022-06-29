@@ -1,0 +1,6 @@
+@mixin container($sz) {
+  .container {
+    max-width: $sz;
+    margin: 0 auto;
+  }
+}

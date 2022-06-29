@@ -1,0 +1,48 @@
+@mixin spacingXY($cs, $ss, $prop1, $prop2, $auto: true) {
+  .#{$cs}#{$ss}-0 {
+    #{$prop1}: 0rem;
+    #{$prop2}: 0rem;
+  }
+
+  .#{$cs}#{$ss}-1 {
+    #{$prop1}: 0.25rem;
+    #{$prop2}: 0.25rem;
+  }
+
+  .#{$cs}#{$ss}-2 {
+    #{$prop1}: 0.5rem;
+    #{$prop2}: 0.5rem;
+  }
+
+  .#{$cs}#{$ss}-3 {
+    #{$prop1}: 1rem;
+    #{$prop2}: 1rem;
+  }
+
+  .#{$cs}#{$ss}-4 {
+    #{$prop1}: 2rem;
+    #{$prop2}: 2rem;
+  }
+
+  .#{$cs}#{$ss}-5 {
+    #{$prop1}: 3rem;
+    #{$prop2}: 3rem;
+  }
+
+  .#{$cs}#{$ss}-6 {
+    #{$prop1}: 4rem;
+    #{$prop2}: 4rem;
+  }
+
+  .#{$cs}#{$ss}-7 {
+    #{$prop1}: 5rem;
+    #{$prop2}: 5rem;
+  }
+
+  @if auto {
+    .#{$cs}#{$ss}-auto {
+      #{$prop1}: auto;
+      #{$prop2}: auto;
+    }
+  }
+}

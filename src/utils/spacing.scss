@@ -1,0 +1,39 @@
+@mixin spacing($cs, $ss, $prop, $auto: false, $dir: "") {
+  .#{$cs}#{$ss}-0#{$dir} {
+    #{$prop}: 0rem;
+  }
+
+  .#{$cs}#{$ss}-1#{$dir} {
+    #{$prop}: 0.25rem;
+  }
+
+  .#{$cs}#{$ss}-2#{$dir} {
+    #{$prop}: 0.5rem;
+  }
+
+  .#{$cs}#{$ss}-3#{$dir} {
+    #{$prop}: 1rem;
+  }
+
+  .#{$cs}#{$ss}-4#{$dir} {
+    #{$prop}: 2rem;
+  }
+
+  .#{$cs}#{$ss}-5#{$dir} {
+    #{$prop}: 3rem;
+  }
+
+  .#{$cs}#{$ss}-6#{$dir} {
+    #{$prop}: 4rem;
+  }
+
+  .#{$cs}#{$ss}-7#{$dir} {
+    #{$prop}: 5rem;
+  }
+
+  @if $auto {
+    .#{$cs}#{$ss}-auto#{$dir} {
+      #{$prop}: auto;
+    }
+  }
+}

@@ -1,0 +1,164 @@
+@use "sass:string";
+@import "spacing";
+
+@mixin flex-utils($ss, $sz) {
+  @if $ss =="" {
+
+    [class*="#{string.quote(jc-)}"],
+    [class*="#{string.quote(ai-)}"],
+    [class*="#{string.quote(as-)}"],
+    [class*="#{string.quote(ac-)}"] {
+      display: flex;
+    }
+  }
+
+  .fd#{$ss}-row {
+    flex-direction: row;
+  }
+
+  .fd#{$ss}-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .fd#{$ss}-column {
+    flex-direction: column;
+  }
+
+  .fd#{$ss}-column-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .flex#{$ss}-1 {
+    flex: 1;
+  }
+
+  .fg#{$ss}-0 {
+    flex-grow: 0 !important;
+  }
+
+  .fg#{$ss}-1 {
+    flex-grow: 1 !important;
+  }
+
+  .fs#{$ss}-0 {
+    flex-shrink: 0 !important;
+  }
+
+  .fs#{$ss}-1 {
+    flex-shrink: 1 !important;
+  }
+
+  .fw#{$ss}-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .fw#{$ss}-wrap {
+    flex-wrap: wrap;
+  }
+
+  .fw#{$ss}-reverse {
+    flex-wrap: wrap-reverse;
+  }
+
+  .both#{$ss}-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .jc#{$ss}-center {
+    justify-content: center;
+  }
+
+  .jc#{$ss}-start {
+    justify-content: flex-start;
+  }
+
+  .jc#{$ss}-end {
+    justify-content: flex-end;
+  }
+
+  .jc#{$ss}-between {
+    justify-content: space-between;
+  }
+
+  .jc#{$ss}-around {
+    justify-content: space-around;
+  }
+
+  .jc#{$ss}-evenly {
+    justify-content: space-evenly;
+  }
+
+  .jc#{$ss}-stretch {
+    justify-content: stretch;
+  }
+
+  .ai#{$ss}-start {
+    align-items: flex-start;
+  }
+
+  .ai#{$ss}-end {
+    align-items: flex-end;
+  }
+
+  .ai#{$ss}-center {
+    align-items: center;
+  }
+
+  .ai#{$ss}-baseline {
+    align-items: baseline;
+  }
+
+  .ai#{$ss}-stretch {
+    align-items: stretch;
+  }
+
+  .as#{$ss}-start {
+    align-self: flex-start;
+  }
+
+  .as#{$ss}-end {
+    align-self: flex-end;
+  }
+
+  .as#{$ss}-center {
+    align-self: center;
+  }
+
+  .as#{$ss}-baseline {
+    align-self: baseline;
+  }
+
+  .as#{$ss}-stretch {
+    align-self: stretch;
+  }
+
+  .ac#{$ss}-center {
+    align-content: center;
+  }
+
+  .ac#{$ss}-start {
+    align-content: flex-start;
+  }
+
+  .ac#{$ss}-end {
+    align-content: flex-end;
+  }
+
+  .ac#{$ss}-between {
+    align-content: space-between;
+  }
+
+  .ac#{$ss}-around {
+    align-content: space-around;
+  }
+
+  .ac#{$ss}-stretch {
+    align-content: stretch;
+  }
+
+  @include spacing("gap", $ss, "--gap");
+  @include spacing("row-gap", $ss, "row-gap");
+}

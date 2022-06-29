@@ -1,0 +1,15 @@
+@mixin cols($ss) {
+  .cols#{$ss}-auto>* {
+    width: auto;
+  }
+
+  .cols#{$ss}-1 {
+    width: 100%;
+  }
+
+  @for $i from 2 to 13 {
+    .cols#{$ss}-#{$i}>* {
+      width: calc(((12 / $i) * var(--cw)) + (((12 / $i) - 1) * var(--gap)));
+    }
+  }
+}

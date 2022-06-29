@@ -1,0 +1,33 @@
+@mixin display($ss) {
+  .v#{$ss}-visible {
+    visibility: visible !important;
+  }
+
+  .v#{$ss}-hidden {
+    visibility: hidden !important;
+  }
+
+  .d#{$ss}-flex {
+    display: flex;
+  }
+
+  .d#{$ss}-inline-flex {
+    display: inline-flex;
+  }
+
+  .d#{$ss}-inline {
+    display: inline;
+  }
+
+  .d#{$ss}-block {
+    display: block;
+  }
+
+  .d#{$ss}-inline-block {
+    display: inline-block;
+  }
+
+  .d#{$ss}-none {
+    display: none;
+  }
+}

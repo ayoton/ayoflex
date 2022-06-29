@@ -1,0 +1,24 @@
+@import "spacing.scss";
+@import "spacing-xy.scss";
+
+@mixin margin($ss) {
+  @include spacing("m", $ss, "margin", true);
+  // margin x axis
+  @include spacingXY("mx", $ss, "margin-left", "margin-right", true);
+  // marin y axis
+  @include spacingXY("my", $ss, "margin-top", "margin-bottom", true);
+  // margin start
+  @include spacing("ms", $ss, "margin-left", true, ":not(:lang(ar))");
+  @include spacing("ms", $ss, "margin-right", true, ":lang(ar)");
+  // margin end
+  @include spacing("me", $ss, "margin-right", true, ":not(:lang(ar))");
+  @include spacing("me", $ss, "margin-left", true, ":lang(ar)");
+  // margin top
+  @include spacing("mt", $ss, "margin-top", true);
+  // margin bottom
+  @include spacing("mb", $ss, "margin-bottom", true);
+  // margin left
+  @include spacing("ml", $ss, "margin-left", true);
+  // margin right
+  @include spacing("mr", $ss, "margin-right", true);
+}

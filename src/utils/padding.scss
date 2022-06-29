@@ -1,0 +1,24 @@
+@import "spacing.scss";
+@import "spacing-xy.scss";
+
+@mixin padding($ss) {
+  @include spacing("p", $ss, "padding");
+  // padding x axis
+  @include spacingXY("px", $ss, "padding-left", "padding-right");
+  // padding y axis
+  @include spacingXY("py", $ss, "padding-top", "padding-bottom");
+  // padding start
+  @include spacing("ps", $ss, "padding-left", false, ":not(:lang(ar))");
+  @include spacing("ps", $ss, "padding-right", false, ":lang(ar)");
+  // padding end
+  @include spacing("pe", $ss, "padding-right", false, ":not(:lang(ar))");
+  @include spacing("pe", $ss, "padding-left", false, ":lang(ar)");
+  // padding top
+  @include spacing("pt", $ss, "padding-top");
+  // padding bottom
+  @include spacing("pb", $ss, "padding-bottom");
+  // padding left
+  @include spacing("pl", $ss, "padding-left");
+  // padding right
+  @include spacing("pr", $ss, "padding-right");
+}

@@ -1,0 +1,7 @@
+.row {
+  --gap: 1rem;
+  --cw: calc((100% - var(--gap) * 11) / 12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}

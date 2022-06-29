@@ -1,0 +1,7 @@
+@mixin offset($ss) {
+  @for $i from 1 to 12 {
+    .offset#{$ss}-#{$i} {
+      margin-left: calc((var(--cw) * $i) + (var(--gap) * $i));
+    }
+  }
+}

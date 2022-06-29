@@ -1,0 +1,28 @@
+@mixin col($ss) {
+  .col#{$ss} {
+    flex: 1 0 0%;
+  }
+
+  .col#{$ss}-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  @for $i from 1 to 13 {
+    .col#{$ss}-fill {
+      flex: 1;
+    }
+
+    .col#{$ss}-#{$i} {
+      width: calc((var(--cw) * $i) + (var(--gap) * ($i - 1)));
+    }
+
+    .w#{$ss}-auto {
+      width: auto;
+    }
+
+    .w#{$ss}-100 {
+      width: 100%;
+    }
+  }
+}

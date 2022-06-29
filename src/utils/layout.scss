@@ -1,0 +1,25 @@
+@import "container.scss";
+@import "cols.scss";
+@import "col.scss";
+@import "display.scss";
+@import "flex.scss";
+@import "margin.scss";
+@import "offset.scss";
+@import "order.scss";
+@import "padding.scss";
+@import "spacing.scss";
+@import "spacing-xy.scss";
+@import "text-align.scss";
+
+@mixin layout($ss, $size) {
+  @include container($size);
+  @include display($ss);
+  @include flex-utils($ss, $size);
+  @include margin($ss);
+  @include padding($ss);
+  @include offset($ss);
+  @include order($ss);
+  @include textAlign($ss);
+  @include col($ss);
+  @include cols($ss);
+}

@@ -1,0 +1,24 @@
+@import "utils/layout";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  --gap: 1rem;
+  --cw: calc((100% - var(--gap) * 11) / 12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+@include layout("", "100%");

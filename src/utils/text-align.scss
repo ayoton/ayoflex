@@ -1,0 +1,32 @@
+@mixin textAlign($ss) {
+
+  .text#{$ss}-center,
+  .ta#{$ss}-center {
+    text-align: center;
+  }
+
+  .text#{$ss}-start,
+  .ta#{$ss}-start {
+    text-align: start;
+  }
+
+  .text#{$ss}-end,
+  .ta#{$ss}-end {
+    text-align: end;
+  }
+
+  .text#{$ss}-left,
+  .ta#{$ss}-left {
+    text-align: left;
+  }
+
+  .text#{$ss}-right,
+  .ta#{$ss}-right {
+    text-align: right;
+  }
+
+  .text#{$ss}-justify,
+  .ta#{$ss}-justify {
+    text-align: justify;
+  }
+}
