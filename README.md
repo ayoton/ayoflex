@@ -1,4 +1,4 @@
-# Advanced CSS layout utility library
+# A mobile first css layout utility library
 
 AyoFlex is a modern open source CSS layout utility library based on flexbox layout module with twelve columns grid system to build mobile first responsive web interfaces. Ayoflex includes six default breakpoints known as responsive modifiers. These breakpoints can be customized using our source Sass file.
 
