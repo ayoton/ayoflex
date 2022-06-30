@@ -3,5 +3,4 @@
 *.sass.map
 *.scss.map
 node_modules
-dist
 package-lock.json

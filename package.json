@@ -6,6 +6,7 @@
   "scripts": {
     "css": "sass --no-source-map --style=compressed ./src/ayoflex.scss ./dist/ayoflex.min.css && sass --no-source-map --style=compressed ./src/ayoflex-no-responsive.scss ./dist/ayoflex-no-responsive.min.css && sass --no-source-map ./src/ayoflex.scss ./dist/ayoflex.css && sass --no-source-map ./src/ayoflex-no-responsive.scss ./dist/ayoflex-no-responsive.css"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ayoton/ayoflex.git"
@@ -16,14 +17,17 @@
     "Layout",
     "Utility",
     "Grid",
-    "Spacing"
+    "Spacing",
+    "Responsive",
+    "Margin",
+    "Padding"
   ],
   "author": "AYOTON",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ayoton/ayoflex/issues"
   },
-  "homepage": "https://github.com/ayoton/ayoflex#readme",
+  "homepage": "https://ayoflex.ayolib.com",
   "devDependencies": {
     "sass": "^1.53.0"
   }
