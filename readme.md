@@ -64,3 +64,7 @@ If you don't need responsiveness you can install a lite version:
 <link rel="stylesheet" href="https://unpkg.com/ayoflex@1.0.1/dist/ayoflex-no-responsive.min.css">
 ```
 ---
+
+## Copyright and license
+
+Code and documentation copyright 2022 [Ayoton](https://ayoton.com). Code released under the [MIT License](https://github.com/ayoton/ayoflex/blob/main/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
