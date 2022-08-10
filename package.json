@@ -25,9 +25,9 @@
   "author": "AYOTON",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayoton/ayoflex/issues"
+    "url": "https://ayoflex.com"
   },
-  "homepage": "https://ayoflex.ayolib.com",
+  "homepage": "https://ayoflex.com",
   "devDependencies": {
     "sass": "^1.53.0"
   }

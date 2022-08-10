@@ -44,11 +44,13 @@ To import ayoflex in your project use the following code in your js file:
 import 'ayoflex';
 ```
 
-### or
+#### or
 
 ```bash
 import 'ayoflex/dist/ayoflex.min.css';
 ```
+
+<br>
 
 Also you can easily import style to your existing CSS/SCSS/SASS file:
 
@@ -58,7 +60,7 @@ Also you can easily import style to your existing CSS/SCSS/SASS file:
 @import "ayoflex/dist/ayoflex.min.css";
 ```
 
-### Or
+#### or
 
 #### Import scss in your SASS file
 
