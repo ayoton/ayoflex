@@ -3,8 +3,8 @@
 ---
 
 <p align="center">
-  <a href="https://ayoflex.ayolib.com/">
-    <img src="https://ayoflex.ayolib.com/ayoflex.png" alt="Bootstrap logo" width="216" height="100">
+  <a href="https://ayoflex.com/">
+    <img src="https://ayoflex.com/ayoflex.png" alt="Ayoflex logo" width="216" height="100">
   </a>
 </p>
 
@@ -14,7 +14,7 @@ AyoFlex is a modern open source CSS layout utility library based on `flex` layou
 
 ## Documentation
 
-### You can find everything fully documented at the [Official Website](https://ayoflex.ayolib.com).
+### You can find everything fully documented at the [Official Website](https://ayoflex.com).
 
 ## Installation
 
@@ -28,6 +28,8 @@ NPM:
 
 ```bash
 $ npm install ayoflex
+// or
+$ npm i ayoflex
 ```
 
 Yarn:
