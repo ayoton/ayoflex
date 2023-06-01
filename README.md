@@ -24,7 +24,7 @@ To use AyoFlex on your project, you can use the pre-compiled css file and also c
 
 Use your favorite package manager to install AyoFlex
 
-NPM:
+### NPM:
 
 ```bash
 $ npm install ayoflex
@@ -36,7 +36,7 @@ or
 $ npm i ayoflex
 ```
 
-Yarn:
+### Yarn:
 
 ```bash
 $ yarn add ayoflex
