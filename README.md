@@ -28,7 +28,11 @@ NPM:
 
 ```bash
 $ npm install ayoflex
-// or
+```
+
+or
+
+```bash
 $ npm i ayoflex
 ```
 
