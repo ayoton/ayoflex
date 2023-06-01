@@ -1,6 +1,6 @@
 {
   "name": "ayoflex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A mobile first css layout utility library",
   "main": "index.js",
   "scripts": {
