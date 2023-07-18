@@ -2398,27 +2398,27 @@
     order: 12;
   }
   .text-sm-center,
-.ta-sm-center {
+  .ta-sm-center {
     text-align: center;
   }
   .text-sm-start,
-.ta-sm-start {
+  .ta-sm-start {
     text-align: start;
   }
   .text-sm-end,
-.ta-sm-end {
+  .ta-sm-end {
     text-align: end;
   }
   .text-sm-left,
-.ta-sm-left {
+  .ta-sm-left {
     text-align: left;
   }
   .text-sm-right,
-.ta-sm-right {
+  .ta-sm-right {
     text-align: right;
   }
   .text-sm-justify,
-.ta-sm-justify {
+  .ta-sm-justify {
     text-align: justify;
   }
   .col-sm {
@@ -3512,27 +3512,27 @@
     order: 12;
   }
   .text-md-center,
-.ta-md-center {
+  .ta-md-center {
     text-align: center;
   }
   .text-md-start,
-.ta-md-start {
+  .ta-md-start {
     text-align: start;
   }
   .text-md-end,
-.ta-md-end {
+  .ta-md-end {
     text-align: end;
   }
   .text-md-left,
-.ta-md-left {
+  .ta-md-left {
     text-align: left;
   }
   .text-md-right,
-.ta-md-right {
+  .ta-md-right {
     text-align: right;
   }
   .text-md-justify,
-.ta-md-justify {
+  .ta-md-justify {
     text-align: justify;
   }
   .col-md {
@@ -4626,27 +4626,27 @@
     order: 12;
   }
   .text-lg-center,
-.ta-lg-center {
+  .ta-lg-center {
     text-align: center;
   }
   .text-lg-start,
-.ta-lg-start {
+  .ta-lg-start {
     text-align: start;
   }
   .text-lg-end,
-.ta-lg-end {
+  .ta-lg-end {
     text-align: end;
   }
   .text-lg-left,
-.ta-lg-left {
+  .ta-lg-left {
     text-align: left;
   }
   .text-lg-right,
-.ta-lg-right {
+  .ta-lg-right {
     text-align: right;
   }
   .text-lg-justify,
-.ta-lg-justify {
+  .ta-lg-justify {
     text-align: justify;
   }
   .col-lg {
@@ -5740,27 +5740,27 @@
     order: 12;
   }
   .text-xl-center,
-.ta-xl-center {
+  .ta-xl-center {
     text-align: center;
   }
   .text-xl-start,
-.ta-xl-start {
+  .ta-xl-start {
     text-align: start;
   }
   .text-xl-end,
-.ta-xl-end {
+  .ta-xl-end {
     text-align: end;
   }
   .text-xl-left,
-.ta-xl-left {
+  .ta-xl-left {
     text-align: left;
   }
   .text-xl-right,
-.ta-xl-right {
+  .ta-xl-right {
     text-align: right;
   }
   .text-xl-justify,
-.ta-xl-justify {
+  .ta-xl-justify {
     text-align: justify;
   }
   .col-xl {
@@ -6854,27 +6854,27 @@
     order: 12;
   }
   .text-xxl-center,
-.ta-xxl-center {
+  .ta-xxl-center {
     text-align: center;
   }
   .text-xxl-start,
-.ta-xxl-start {
+  .ta-xxl-start {
     text-align: start;
   }
   .text-xxl-end,
-.ta-xxl-end {
+  .ta-xxl-end {
     text-align: end;
   }
   .text-xxl-left,
-.ta-xxl-left {
+  .ta-xxl-left {
     text-align: left;
   }
   .text-xxl-right,
-.ta-xxl-right {
+  .ta-xxl-right {
     text-align: right;
   }
   .text-xxl-justify,
-.ta-xxl-justify {
+  .ta-xxl-justify {
     text-align: justify;
   }
   .col-xxl {

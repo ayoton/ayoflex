@@ -3,8 +3,8 @@
 ---
 
 <p align="center">
-  <a href="https://ayoflex.com/">
-    <img src="https://ayoflex.com/ayoflex.png" alt="Ayoflex logo" width="216" height="100">
+  <a href="https://ayoflex.ayoton.com/">
+    <img src="https://ayoflex.ayoton.com/ayoflex.png" alt="Ayoflex logo" width="216" height="100">
   </a>
 </p>
 
@@ -14,7 +14,7 @@ AyoFlex is a modern open source CSS layout utility library based on `flex` layou
 
 ## Documentation
 
-### You can find everything fully documented at the [Official Website](https://ayoflex.com).
+### You can find everything fully documented at the [Official Website](https://ayoflex.ayoton.com).
 
 ## Installation
 
@@ -81,7 +81,7 @@ You can also add AyoFlex in your project from CDN:
 ```html
 <link
   rel="stylesheet"
-  href="https://unpkg.com/ayoflex@1.0.1/dist/ayoflex.min.css"
+  href="https://unpkg.com/ayoflex@1.0.4/dist/ayoflex.min.css"
 />
 ```
 
@@ -90,7 +90,7 @@ If you don't need responsiveness you can install a lite version:
 ```html
 <link
   rel="stylesheet"
-  href="https://unpkg.com/ayoflex@1.0.1/dist/ayoflex-no-responsive.min.css"
+  href="https://unpkg.com/ayoflex@1.0.3/dist/ayoflex-no-responsive.min.css"
 />
 ```
 

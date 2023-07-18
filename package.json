@@ -1,6 +1,6 @@
 {
   "name": "ayoflex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A mobile first css layout utility library",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,9 @@
   "author": "AYOTON",
   "license": "MIT",
   "bugs": {
-    "url": "https://ayoflex.com"
+    "url": "https://ayoflex.ayoton.com"
   },
-  "homepage": "https://ayoflex.com",
+  "homepage": "https://ayoflex.ayoton.com",
   "devDependencies": {
     "sass": "^1.53.0"
   }
