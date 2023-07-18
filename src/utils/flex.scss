@@ -2,16 +2,6 @@
 @import "spacing";
 
 @mixin flex-utils($ss, $sz) {
-  @if $ss =="" {
-
-    [class*="#{string.quote(jc-)}"],
-    [class*="#{string.quote(ai-)}"],
-    [class*="#{string.quote(as-)}"],
-    [class*="#{string.quote(ac-)}"] {
-      display: flex;
-    }
-  }
-
   .fd#{$ss}-row {
     flex-direction: row;
   }
