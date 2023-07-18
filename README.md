@@ -90,7 +90,7 @@ If you don't need responsiveness you can install a lite version:
 ```html
 <link
   rel="stylesheet"
-  href="https://unpkg.com/ayoflex@1.0.3/dist/ayoflex-no-responsive.min.css"
+  href="https://unpkg.com/ayoflex@1.0.4/dist/ayoflex-no-responsive.min.css"
 />
 ```
 
